@@ -1,8 +1,8 @@
 FROM nginx
 
-WORKDIR /var/www/html
+WORKDIR /usr/share/nginx/html
 
-COPY ./html /var/www/html
+COPY ./html /usr/share/nginx/html
 
 # RUN npm install
 
