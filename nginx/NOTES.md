@@ -1,3 +1,3 @@
 docker build .
 
-docker run -p 150:80 f1bab09aae33
+docker run -d -p 3000:80 5038a3e85f71
