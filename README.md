@@ -9,4 +9,4 @@ docker run -p 100:80 --name MyPhpApache -d my-php-apache
 # построение из файла docker-compose.yml 
 docker-compose build 
 # запуск образов из docker-compose.yml 
-docker-compose up 
+docker-compose up   

@@ -2,7 +2,7 @@ version: '3.1'
 
 services:
   php:
-    build: ./php 
+    build: ./
     ports: 
       - 8081:80
 
